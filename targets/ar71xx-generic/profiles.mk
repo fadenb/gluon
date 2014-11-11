@@ -1,5 +1,11 @@
 # List of hardware profiles
 
+## Netgear
+
+# WNDR3700 v2
+$(eval $(call GluonProfile,WNDR3700V2))
+$(eval $(call GluonModel,WNDR3700V2,wndr3700v2-squashfs,netgear-wndr3700-v2))
+
 ## TP-Link
 
 # TL-WR703N v1
