@@ -3,8 +3,9 @@
 ## Netgear
 
 # WNDR3700 v2
-$(eval $(call GluonProfile,WNDR3700V2))
-$(eval $(call GluonModel,WNDR3700V2,wndr3700v2-squashfs,netgear-wndr3700-v2))
+$(eval $(call GluonProfile,WNDR3700))
+$(eval $(call GluonModel,WNDR3700,wndr3700-v1-squashfs,netgear-wndr3700-v1))
+$(eval $(call GluonModel,WNDR3700,wndr3700-v2-squashfs,netgear-wndr3700-v2))
 
 ## TP-Link
 
@@ -102,6 +103,7 @@ endif
 $(eval $(call GluonProfile,UBNT))
 $(eval $(call GluonModel,UBNT,ubnt-bullet-m-squashfs,ubiquiti-bullet-m))
 $(eval $(call GluonModel,UBNT,ubnt-nano-m-squashfs,ubiquiti-nanostation-m))
+$(eval $(call GluonModel,UBNT,ubnt-nano-m-xw-squashfs,ubiquiti-nanostation-m-xw))
 $(eval $(call GluonModel,UBNT,ubnt-unifi-squashfs,ubiquiti-unifi))
 $(eval $(call GluonModel,UBNT,ubnt-unifi-outdoor-squashfs,ubiquiti-unifiap-outdoor))
 ifeq ($(BROKEN),1)
